@@ -1,0 +1,9 @@
+
+body{
+        text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+        border: 70px outset #D3BE10;
+}
+
+label, p{
+    font-family: Times New Roman;
+}

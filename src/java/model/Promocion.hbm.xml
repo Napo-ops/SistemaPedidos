@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 09/07/2020 08:40:02 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="model.Promocion" table="promocion" catalog="trentinobd" optimistic-lock="version">
+        <id name="idPromocion" type="int">
+            <column name="idPromocion" />
+            <generator class="assigned" />
+        </id>
+        <property name="codigo" type="string">
+            <column name="codigo" length="45" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
